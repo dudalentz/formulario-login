@@ -1,0 +1,53 @@
+body {
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	height: 500px;
+	background-color: #99FF66;
+	background-image: linear-gradient(#99FF66, #17520f);
+	}
+
+#container {
+	margin: 0 auto;
+	width: 400px;
+	height: 350px;
+	margin-top: 120px;
+	background-color: rgba(255,255,255,0.5);
+	text-align: center;
+	border-radius: 1.8em;
+}
+
+#container img {
+	width: 70px;
+	height: 70px;
+	margin-top: 30px;
+	margin-bottom: 20px; 
+}
+
+input{
+	height: 40px;
+	width: 80%;
+	margin-bottom: 18px;
+	background-color: #fff;
+	padding-left: 40px;
+	border-style: none;
+	background-position: 10px;
+	background-repeat: no-repeat;
+}
+
+input.email {
+	background-image: url(../imagens/icone-usuario.png);
+}
+
+input.senha {
+	background-image: url(../imagens/icone-cadeado.png);
+}
+
+input.submit {
+	color: #fff;
+	background-color:#99CC00;
+	font-size: 1em;
+	font-weight:bold;
+	padding: 5px 20px;
+	height: 45px;
+	width: 90%;
+	background: linear-gradient(to bottom,#8aeb5c, #458f2e);
+}
